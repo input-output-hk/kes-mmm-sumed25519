@@ -9,13 +9,14 @@ pkgs: _: with pkgs; let
     (lib.hasSuffix ".rs" name) ||
     (baseName == "Cargo.lock") ||
     (baseName == "Cargo.toml");
+  src = lib.cleanSourceWith {
+    inherit filter;
+    src = ../.;
+    name = "kes-mmm-sumed25519";
+  };
 in {
   kes_mmm_sumed25519_c = naersk.buildPackage {
-    root = lib.cleanSourceWith {
-      inherit filter;
-      src = ../.;
-      name = "kes-mmm-sumed25519";
-    };
+    root = ../.;
     copyBins = true;
     copyTarget = false;
     copyLibs = true;
