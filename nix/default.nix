@@ -34,6 +34,7 @@ let
       })
       # And, of course, our haskell-nix-ified cabal project:
       (import ./pkgs.nix)
+      (import ./cabal2nix.nix)
     ];
 
   pkgs = import nixpkgs {
