@@ -12,15 +12,15 @@
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "naersk": {
-        "branch": "fix-lndir",
+        "branch": "more-fixes",
         "description": "Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.",
         "homepage": "",
         "owner": "input-output-hk",
         "repo": "naersk",
-        "rev": "228908977a721365b9948698f88ece4755588ba0",
-        "sha256": "012p1yij4qd8wprb85293d5a15p7pbhf8d5f11hp0fxf3pb6mrx1",
+        "rev": "bf3a43a155b77f0e8415155e194162c484de57c9",
+        "sha256": "13crklnhlpjl7jpvwg7zgcg1va6xsis4b0s531nyvqs6xi2iznk0",
         "type": "tarball",
-        "url": "https://github.com/input-output-hk/naersk/archive/228908977a721365b9948698f88ece4755588ba0.tar.gz",
+        "url": "https://github.com/input-output-hk/naersk/archive/bf3a43a155b77f0e8415155e194162c484de57c9.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
@@ -36,15 +36,15 @@
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
-        "branch": "master",
+        "branch": "rust2",
         "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
         "homepage": "https://github.com/NixOS/nixpkgs",
-        "owner": "NixOS",
+        "owner": "input-output-hk",
         "repo": "nixpkgs",
-        "rev": "a075ecd16c9262c002121a2976471ab38b9bbf60",
-        "sha256": "0zslrlmpdl4pv6035a588m4djygwmnycp86a62b6klgwwg2qd90w",
+        "rev": "3f2c227c9167a89e00940eb391a18e6f298ac366",
+        "sha256": "15gzn0lhsv8qfnqgfhvmm7qwlflkbnsj7ipfpx5rbsgn7mkn8f2f",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/a075ecd16c9262c002121a2976471ab38b9bbf60.tar.gz",
+        "url": "https://github.com/input-output-hk/nixpkgs/archive/3f2c227c9167a89e00940eb391a18e6f298ac366.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }

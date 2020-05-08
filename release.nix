@@ -13,4 +13,5 @@ in {
   raspberryPi = mkArch (x: x.pkgsCross.raspberryPi);
   armv7l-hf-multiplatform = mkArch (x: x.pkgsCross.armv7l-hf-multiplatform);
   aarch64-multiplatform = mkArch (x: x.pkgsCross.aarch64-multiplatform);
+  mingwW64 = mkArch (x: x.pkgsCross.mingwW64);
 }

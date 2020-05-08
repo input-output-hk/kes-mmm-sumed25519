@@ -35,6 +35,14 @@ let
       # And, of course, our haskell-nix-ified cabal project:
       (import ./pkgs.nix)
       (import ./cabal2nix.nix)
+      (self: super: {
+        openssl = super.openssl.override { coreutils = self.buildPackages.coreutils; };
+        zstd = super.zstd.overrideAttrs (old: {
+          patchPhase = ''
+            sed -i "s/Windows.h/windows.h/" programs/timefn.h
+          '';
+        });
+      })
     ];
 
   pkgs = import nixpkgs {
