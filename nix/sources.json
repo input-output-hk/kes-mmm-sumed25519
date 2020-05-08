@@ -17,10 +17,10 @@
         "homepage": "",
         "owner": "input-output-hk",
         "repo": "naersk",
-        "rev": "bf3a43a155b77f0e8415155e194162c484de57c9",
-        "sha256": "13crklnhlpjl7jpvwg7zgcg1va6xsis4b0s531nyvqs6xi2iznk0",
+        "rev": "a3f5eb1b1d9326c4012260d50cda08ea6be17f67",
+        "sha256": "0kkfdzlvg29x4aic28jckpjqnh58j9fmvq7kh8w7i7746yslqvia",
         "type": "tarball",
-        "url": "https://github.com/input-output-hk/naersk/archive/bf3a43a155b77f0e8415155e194162c484de57c9.tar.gz",
+        "url": "https://github.com/input-output-hk/naersk/archive/a3f5eb1b1d9326c4012260d50cda08ea6be17f67.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
