@@ -13,6 +13,8 @@ library
   exposed-modules: KES
   hs-source-dirs: src
   build-depends: base >=4.7 && <5
+                   , memory
+                   , bytestring
   default-language: Haskell2010
   extra-libraries:   kes_mmm_sumed25519_c
 
