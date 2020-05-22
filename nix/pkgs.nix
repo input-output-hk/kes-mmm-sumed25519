@@ -1,6 +1,7 @@
 # our packages overlay
 pkgs: _: with pkgs; let
-  naersk = pkgs.callPackage pkgs.commonLib.sources.naersk {};
+  sources = import ./sources.nix;
+  naersk = pkgs.callPackage sources.naersk {};
   filter = name: type: let
     baseName = baseNameOf (toString name);
     sansPrefix = lib.removePrefix (toString ../.) name;
